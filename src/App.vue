@@ -48,7 +48,7 @@ provide('cart', {
 <template>
   <Drawer v-if="drawerOpen" :total-price="totalPrice" :vat-price="vatPrice" />
 
-  <div class="bg-white w-4/5 m-auto rounded-xl shadow-xl mt-14">
+  <div class="bg-white w-4/5 m-auto rounded-xl shadow-xl mt-14 mb-14">
     <Header :total-price="totalPrice" @open-drawer="openDrawer" />
 
     <div class="p-10">
