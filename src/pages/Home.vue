@@ -30,7 +30,7 @@ const onChangeSelect = (event) => {
 
 const onChangeSelectInput = debounce((event) => {
   filters.seachQuery = event.target.value
-}, 200)
+}, 10)
 
 const addToFavorite = async (item) => {
   try {
